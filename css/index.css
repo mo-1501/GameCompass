@@ -1,0 +1,6 @@
+body div.back {
+  height: 1200px;
+  background-image: url(../img/mainvleft.png), url(../img/mainvright.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: ;
+}
