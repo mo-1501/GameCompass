@@ -1,3 +1,4 @@
+@import url(common.css);
 body div.back {
   height: 1200px;
   background-image: url(../img/mainvleft.png), url(../img/mainvright.jpg);
