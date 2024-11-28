@@ -3,22 +3,18 @@
   font-family: Zen Maru Gothic;
   background-color: #f8feff;
 }
-
-header {
-  background-image: url(../img/mainvleft.png), url(../img/mainvright.jpg);
-  background-repeat: no-repeat;
-  padding-bottom: 1011px;
-  padding-top: 50px;
-}
 nav {
   display: flex;
   gap: 66px;
   align-items: center;
+  padding: 12px 31px 11px 18px;
+  background-color: black;
+}
+nav.topnav {
   background-color: rgba(255, 255, 255, 0.333);
   border-radius: 10px;
   width: 1200px;
   margin: 0 auto;
-  padding: 12px 31px 11px 18px;
   box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.25) inset;
 }
 ul.flex2 {
