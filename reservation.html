@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/studio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p><a href="index.html"><img src="img/logo_header.png" alt="ロゴ"></a></p>
+            <ul>
+                <li>
+                    <a href="index.html">GameCompass</a>
+                </li>
+                <li>
+                    <a href="studio.html">STUDIO</a>
+                </li>
+                <li>
+                    <a href="#">RESERVATION</a>
+                </li>
+                <li>
+                    <a href="#">ACCESS</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <p class="subhead "><img src="img/img_rese/bg_header_rese.png " alt=""></p>
+    <ul class="bread">
+        <li><a href="index.html">HOME</a><span class="big">&gt;</span></li>
+        <li class="act"><a href="about.html">RESERVATION</a></li>
+    </ul>
+    <main class="sub_main">
+        <hgroup>
+            <h2>レンタル施設予約申込</h2>
+            <div class="line_ce"></div>
+            <p>施設レンタル申込フォームでいただいた内容の回答は、数日お時間を頂く可能性があります。<br>
+                お急ぎの際は、お電話にてお問合せください。<br>
+                3日以上経っても返事が届かない場合は、何らかのトラブルが発生している場合があります。<br>
+                お手数ですが、直接お電話にて確認をお願いします。<br>
+                フォームから送信された情報は、自動返信メールでお客様のメールアドレスにも送信されます。<br>
+                内容に間違いがないかご確認ください。<br>
+                施設レンタル申込フォームに入力いただいた個人情報は、施設レンタル申込に関する業務にのみ使用し、ほかの目的には使用いたしません。
+                個人情報の取り扱いは十分に留意し、個人情報保護方針に基づき適切に管理します。</p>
+        </hgroup>
+        <form>
+            <div class="name"><label>氏名</label>
+                <p>申込代表者氏名をご入力してください</p>
+                <input type="text" name="name"><br>
+                <small>※フルネームで記入。<br>
+                    ※領収書の宛名に用いられます。</small>
+            </div>
+            <div class="team_name">
+                <label>団体名･活動名 等</label>
+                <p>申込団体名をご入力してください</p>
+                <input type="text" name="team_name"><br>
+            </div>
+            <div class="add">
+                <label for="">住所</label>
+                <p>申込者様住所もしくは、申込団体所在地をご入力してください</p>
+                <input type="text" name="add" id=""><br><small>※都道府県名から記入。</small>
+            </div>
+            <div class="mail">
+                <label for="">メールアドレス</label>
+                <p>ご連絡用メールアドレスを入力してください。</p>
+                <input type="email" name="mail" id=""><br>
+                <p>確認のため再度入力をしてください。</p>
+                <input type="email" name="mail" id="">
+            </div>
+            <div class="tel">
+                <label for="">電話番号</label>
+                <p>当日連絡用に使用します。　</p>
+                <input type="tel" name="tel" id="">
+                <p>-</p><input type="tel" name="tel" id="">
+                <p>-</p><input type="tel" name="tel" id="">
+            </div>
+            <div class="sel_stu">
+                <label for="">予約施設</label>
+                <p>予約する施設を選択してください。</p>
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="0">CompassStudio</option>
+                    <option value="1">CompassSpace</option>
+                    <option value="2">ScreenHall</option>
+                    <option value="3">PlaySpace</option>
+                    <option value="4">PlaySpace</option>
+                    <option value="5">SHOP Space</option>
+                </select>
+            </div>
+            <div class="date">
+                <label for="">希望日時</label>
+                <p>使用希望の日時を選択してください。</p>
+                <p>日付</p>
+                <input type="date" value="2017-06-01">
+            </div>
+            <div class="purp">
+                <label for="">利用目的･内容</label>
+                <p>利用内容、目的をご記入ください。</p>
+                <textarea name="purp" id=""></textarea>
+            </div>
+            <div class="mn_name">
+                <label for="">振込名義</label>
+                <p>料金銀行振込の際の名義をご入力してください。</p>
+                <input type="text" name="" id="">
+            </div>
+            <div class="other_tex">
+                <label for="">その他備考</label>
+                <p>ご質問等ありましたらご記入ください。</p>
+                <textarea name="other_tex" id=""></textarea>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
