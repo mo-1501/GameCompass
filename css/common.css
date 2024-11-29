@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
 :root {
-  font-family: Zen Maru Gothic;
   background-color: #f8feff;
+}
+* {
+  background-repeat: no-repeat;
 }
 body {
   line-height: normal;
+  font-family: Zen Maru Gothic;
 }
 header {
   background: rgba(255, 255, 255, 0.4);

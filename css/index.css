@@ -2,7 +2,7 @@
 body p.mainvi {
   margin-top: -90px;
 }
-body hgroup {
+body hgroup.catcopy {
   position: absolute;
   left: 447px;
   top: 365px;
@@ -17,10 +17,33 @@ body hgroup h1 {
   text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
   margin-bottom: 45px;
 }
+main section h2.lefth2 {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  padding: 72px 0 72px 0;
+  background-image: url(../img/img_index/bg_h2_left.png);
+}
+main section h2.righth2 {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  padding: 72px 0 72px 0;
+  background-image: url(../img/img_index/bg_h2_right.png);
+  background-position: right;
+}
+main section p.btn {
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid #000000;
+  width: 514px;
+  margin: 124px auto 0 auto;
+  padding: 11px 0px;
+}
 main section.about {
   text-align: center;
   padding: 132px 0 65px 0;
-  background-image: url(../img/bg_about.png);
+  background-image: url(../img/img_index/bg_about.png);
 }
 main section.about p.catch {
   font-size: 60px;
@@ -29,10 +52,59 @@ main section.about p.catch {
 main section.about p.catchtext {
   font-size: 33px;
 }
-main section.about p.btn {
-  font-size: 40px;
-  border: 1px solid #000000;
-  width: 514px;
-  margin: 124px auto 0 auto;
-  padding: 11px 0px;
+main section.news {
+  padding: 300px 0 65px 0;
+  background-image: url(../img/img_index/bg_sec_right.png);
+  background-position: right;
+}
+main section.news dl {
+  padding: 155px 0 0 0;
+}
+main section.news dl div.newsli {
+  display: flex;
+  font-size: 28px;
+  width: 1110px;
+  margin: 0 auto;
+  padding: 37px 0;
+  border-top: 0.5px solid #8e8e8e;
+  border-bottom: 0.5px solid #8e8e8e;
+}
+
+main section.news dl div.newsli dd {
+  width: 826px;
+  margin-left: 60px;
+}
+main section.event {
+  padding: 300px 0 65px 0;
+  background-image: url(../img/img_index/bg_sec_left.png);
+}
+main section.event ul {
+  display: flex;
+  gap: 45px;
+  width: 1110px;
+  margin: 155px auto 0 auto;
+}
+main section.access {
+  padding: 300px 0 65px 0;
+  background-image: url(../img/img_index/bg_sec_right.png);
+  background-position: right;
+}
+main section.access div.address {
+  display: flex;
+  gap: 30px;
+  width: 986px;
+  margin: 155px auto 0 auto;
+}
+main section.access div.address div.map p {
+  width: 440px;
+}
+main section.access div.address div.acs p.adr {
+  font-size: 27px;
+}
+main section.access div.address div.acs hgroup {
+  font-size: 27px;
+  & h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
 }
