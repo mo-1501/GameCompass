@@ -18,6 +18,11 @@ header {
   top: 0;
 }
 /* 下層ページ共通設定↓ */
+main.sub_main {
+  max-width: 1110px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
 p.subhead {
   margin-top: -90px;
 }

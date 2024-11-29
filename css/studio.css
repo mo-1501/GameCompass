@@ -1,0 +1,41 @@
+@import url(common.css);
+main p.stname {
+  font-size: 46px;
+  font-weight: 500;
+}
+main div.line_left {
+  height: 1px;
+  background-image: url(../img/img_about/line_left.png);
+}
+main div.stu,
+div.spa,
+div.hal,
+div.plL,
+div.plSM,
+div.sho {
+  position: relative;
+  margin-top: 60px;
+}
+main section.offli,
+section.other {
+  margin-top: 120px;
+}
+main figure {
+  display: flex;
+  margin: 20px 0 0 50px;
+  & figcaption {
+    font-size: 29px;
+    width: 537px;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    margin: 0 0 0 15px;
+  }
+}
+main figure div.sub_link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  font-size: 24px;
+}
