@@ -17,6 +17,22 @@ header {
   z-index: 1;
   top: 0;
 }
+/* 下層ページ共通設定↓ */
+p.subhead {
+  margin-top: -90px;
+}
+ul.bread {
+  display: flex;
+  width: 1110px;
+  margin: 23px auto 0 auto;
+}
+span.big {
+  padding: 0 5px;
+}
+li.act {
+  color: #ff5353;
+  font-weight: 500;
+}
 header nav {
   margin: 0 auto;
   max-width: 1110px;
