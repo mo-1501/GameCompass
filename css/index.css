@@ -1,8 +1,38 @@
 @import url(common.css);
-
-header {
-  background-image: url(../img/mainvleft.png), url(../img/mainvright.jpg);
-  background-repeat: no-repeat, no-repeat;
-  padding-bottom: 1011px;
-  padding-top: 50px;
+body p.mainvi {
+  margin-top: -90px;
+}
+body hgroup {
+  position: absolute;
+  left: 447px;
+  top: 365px;
+  font-size: 39px;
+  color: #ffffff;
+  text-align: center;
+}
+body hgroup h1 {
+  font-family: Orbitron;
+  font-size: 89px;
+  font-weight: 700;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+  margin-bottom: 45px;
+}
+main section.about {
+  text-align: center;
+  padding: 132px 0 65px 0;
+  background-image: url(../img/bg_about.png);
+}
+main section.about p.catch {
+  font-size: 60px;
+  padding: 33px 0 66px 0;
+}
+main section.about p.catchtext {
+  font-size: 33px;
+}
+main section.about p.btn {
+  font-size: 40px;
+  border: 1px solid #000000;
+  width: 514px;
+  margin: 124px auto 0 auto;
+  padding: 11px 0px;
 }
