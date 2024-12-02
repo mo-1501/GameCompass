@@ -1,20 +1,8 @@
 @import url(common.css);
 
-main section hgroup h2 {
-  font-size: 46px;
-  font-weight: 500;
-}
-main section hgroup div.line_ce {
-  background-image: url(../img/img_about/line_center.png);
-  height: 1px;
-}
 main section hgroup div.line_ri {
   background-image: url(../img/img_about/line_left.png);
   height: 1px;
-}
-
-main section.abo hgroup h2 {
-  text-align: center;
 }
 main section.abo div.abo_box {
   display: flex;

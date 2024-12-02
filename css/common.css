@@ -18,10 +18,25 @@ header {
   top: 0;
 }
 /* 下層ページ共通設定↓ */
+body ul li.active {
+  color: #f8feff;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+}
 main.sub_main {
   max-width: 1110px;
   margin: 0 auto;
   /* background-color: aqua; */
+}
+main hgroup h2 {
+  font-size: 46px;
+  font-weight: 500;
+}
+main hgroup h2.sub_h2 {
+  text-align: center;
+}
+main hgroup div.line_ce {
+  background-image: url(../img/img_about/line_center.png);
+  height: 1px;
 }
 p.subhead {
   margin-top: -90px;
