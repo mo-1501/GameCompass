@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p><a href="index.html"><img src="img/logo_header.png" alt="ロゴ"></a></p>
+            <ul>
+                <li>
+                    <a href="index.html">GameCompass</a>
+                </li>
+                <li>
+                    <a href="studio.html">STUDIO</a>
+                </li>
+                <li>
+                    <a href="reservation.html">RESERVATION</a>
+                </li>
+                <li>
+                    <a href="#">ACCESS</a>
+                </li>
+                <li class="active">
+                    <a href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <p class="subhead "><img src="img/img_rese/bg_header_rese.png " alt=""></p>
+    <ul class="bread">
+        <li><a href="index.html">HOME</a><span class="big">&gt;</span></li>
+        <li class="act"><a href="about.html">CONTACT</a></li>
+    </ul>
+    <main class="sub_main">
+        <hgroup>
+            <h2 class="sub_h2">お問い合わせ</h2>
+            <div class="line_ce"></div>
+            <p class="con_atn">･お急ぎの場合は代表番号(03-3756-4400)までお電話ください。<br>
+                ･営業を目的としたお問い合わせはご遠慮ください。<br>
+                ･ドメイン指定や受信拒否設定をしている場合は、受信が可能な設定へ変更してください。<br>
+                ･メールアドレスの入力に誤りがないようにご注意ください。<br>
+                ･お問い合わせの内容によっては回答までお時間をいただくことがあります。</p>
+        </hgroup>
+        <section>
+            <form>
+                <div class="name parts_flex"><label class="rec">氏名</label>
+                    <div class="form_box">
+                        <p>申込代表者氏名をご入力してください</p>
+                        <input class="wide_box" type="text" name="name"><br>
+                        <small>※フルネームで記入。</small>
+                    </div>
+                </div>
+                <div class="mail parts_flex">
+                    <label class="rec">メールアドレス</label>
+                    <div class="form_box">
+                        <p>ご連絡用メールアドレスを入力してください。</p>
+                        <input class="wide_box" type="email" name="mail"><br>
+                        <p>確認のため再度入力をしてください。</p>
+                        <input class="wide_box" type="email" name="mail">
+                    </div>
+                </div>
+                <div class="tel parts_flex">
+                    <label class="rec">お問い合わせの種類</label>
+                    <div class="form_box">
+                        <p>以下の内容から選択し、チェックしてください。</p>
+                        <div class="sel_box">
+                            <p class="sel_rad_p"><input class="sel_rad" type="radio" name="rese">予約について</p>
+                            <p class="sel_rad_p"><input class="sel_rad" type="radio" name="stu">設備について</p>
+                            <p class="sel_rad_p"><input class="sel_rad" type="radio" name="other">その他</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="purp parts_flex">
+                    <label class="rec">お問い合わせ内容</label>
+                    <div class="form_box">
+                        <p>お問い合わせ内容の詳細をご記入ください。</p>
+                        <textarea class="wide_box" name="purp"></textarea>
+                    </div>
+                </div>
+                <p class="con_atn under_atn">ご入力いただいた個人情報は、お問い合わせの確認･回答業務にのみ使用します。<br>
+                    具体的な取り扱いについては当スタジオの個人情報保護方針ページをご覧ください。<br>
+                    取り扱いについてご承諾いただける場合は、以下の「同意する」をチェックしてください。</p>
+                <p class="agree"><input type="checkbox" name="agree">同意する</p>
+                <p class="btn">上記の内容で送信</p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

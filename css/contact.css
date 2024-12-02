@@ -1,0 +1,65 @@
+@import url(common.css);
+main section {
+  width: 1110px;
+  margin: 0 auto;
+  & p {
+    font-size: 20px;
+  }
+}
+main p.con_atn {
+  font-size: 20px;
+  width: 977px;
+  margin: 36px 0 60px 0;
+}
+main section form label {
+  width: 242px;
+  font-size: 21px;
+  font-weight: 400;
+}
+main section form label.rec {
+  &::after {
+    content: "必須";
+    font-size: 13px;
+    color: #f5f4f4;
+    margin: 0 0 0 5px;
+    padding: 1px 4px;
+    background-color: #ff4b4b;
+  }
+}
+main section form div.parts_flex {
+  display: flex;
+  width: 978px;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #6d6d6d;
+  & small {
+    font-size: 14px;
+  }
+}
+input.wide_box,
+textarea {
+  margin-top: 10px;
+  height: 35px;
+  background-color: #f5f4f4;
+  border: 1px solid #60e684;
+  border-radius: 3px;
+  width: 693px;
+}
+main section form div.form_box {
+  margin: 0 0 0 43px;
+}
+main section form p.under_atn {
+  margin: 40px 0 50px 0;
+}
+main section form p.agree {
+  text-align: center;
+}
+p.btn {
+  width: fit-content;
+  text-align: center;
+  font-weight: 500;
+  padding: 15px 40px;
+  margin: 100px auto;
+  color: #f5f4f4;
+  background-color: #60e684;
+}
