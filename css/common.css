@@ -86,6 +86,9 @@ main.sub_main {
 main hgroup h2 {
   font-size: 46px;
   font-weight: 500;
+  color: #f8feff;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+  padding: 0 0 10px 0;
 }
 main hgroup h2.sub_h2 {
   text-align: center;
