@@ -9,6 +9,7 @@
 body {
   line-height: normal;
   font-family: Zen Maru Gothic;
+  font-weight: 300;
 }
 header {
   background: rgba(255, 255, 255, 0.4);
@@ -16,6 +17,60 @@ header {
   position: sticky;
   z-index: 1;
   top: 0;
+}
+/* footer共通 */
+footer {
+  background-image: url(../img/img_index/bg_footer.png);
+  & ul.foot_menu {
+    font-family: Orbitron;
+    color: #60e684;
+    font-size: 23px;
+    -webkit-text-stroke: 1px #60e684;
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 70px 0 0 0;
+    justify-content: space-between;
+  }
+}
+footer p.foot_logo {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+footer div.foot_line {
+  width: 900px;
+  height: 10px;
+  background-image: url(../img/img_index/line_footer.png);
+  margin: 35px auto;
+}
+footer ul.foot_sns {
+  display: flex;
+  width: 337px;
+  margin: 35px auto;
+  justify-content: space-between;
+}
+footer ul.foot_otmenu {
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-size: 21px;
+  font-weight: 400;
+  color: #f8feff;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+}
+footer p.copy {
+  text-align: center;
+  background-color: #f8feff59;
+  margin: 35px 0 0 0;
+  padding: 4px 0;
+}
+footer p small {
+  font-family: Orbitron;
+  font-size: 14px;
+  color: #f8feff;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
 }
 /* 下層ページ共通設定↓ */
 body ul li.active {
@@ -75,54 +130,5 @@ header ul li {
     transition: 0.7s;
     color: #f8feff;
     text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
-  }
-}
-/* 各施設詳細共通 */
-main.stu_ind_main {
-  width: 1110px;
-  margin: 0 auto;
-}
-main section figure {
-  background-color: #60e684;
-}
-main section figure div.ind_photo {
-  display: flex;
-  width: 900px;
-  margin: 0 auto;
-}
-main section dl {
-  margin: 0 auto;
-  width: 900px;
-}
-main section dl dt {
-  font-size: 30px;
-}
-main section dl dd {
-  font-size: 21px;
-}
-main section dl dd.rent_item table {
-  width: 900px;
-  border: 2px solid #6d6d6d;
-  border-bottom: 1px solid #6d6d6d;
-}
-main section dl dd.rent_item table {
-  margin-top: 15px;
-}
-main section dl dd.rent_item table th.rent_name {
-  text-align: left;
-  width: 450px;
-
-  padding: 12px 0 12px 12px;
-  background-color: #efefef;
-  border-right: 2px solid #6d6d6d;
-}
-main section dl dd table.time_table {
-  height: 548px;
-  border: 1px solid;
-  & thead {
-    width: 450px;
-    height: 274px;
-    padding: 116px 0 116px 108px;
-    background-color: #60e684;
   }
 }

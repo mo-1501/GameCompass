@@ -1,0 +1,66 @@
+@import url(common.css);
+/* 各施設詳細共通 */
+main section hgroup {
+  margin-top: 50px;
+}
+main.stu_ind_main {
+  width: 1110px;
+  margin: 0 auto;
+}
+main section figure {
+  margin: 50px auto 55px auto;
+  & figcaption {
+    font-size: 20px;
+    padding: 25px 0 55px 0;
+    width: 900px;
+    margin: 0 auto;
+  }
+  &::after {
+    content: "";
+    display: block;
+    width: 800px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #6d6d6d;
+  }
+}
+main section figure div.ind_photo {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  gap: 20px;
+}
+main section dl {
+  margin: 0 auto;
+  width: 900px;
+}
+main section dl dt {
+  font-size: 25px;
+  font-weight: 500;
+  & small {
+    font-weight: 300;
+  }
+}
+main section dl dd {
+  font-size: 20px;
+  padding: 0 15px;
+}
+main section dl dd.sheet p img {
+  margin: 0 auto;
+}
+main section dl dd.rent_item table {
+  width: 900px;
+  border: 2px solid #6d6d6d;
+  border-bottom: 1px solid #6d6d6d;
+}
+main section dl dd.rent_item table {
+  margin-top: 15px;
+}
+main section dl dd.rent_item table th.rent_name {
+  text-align: left;
+  width: 450px;
+
+  padding: 12px 0 12px 12px;
+  background-color: #efefef;
+  border-right: 2px solid #6d6d6d;
+}
