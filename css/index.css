@@ -54,7 +54,6 @@ main section.about p.catchtext {
 }
 main section.news {
   padding: 300px 0 65px 0;
-  background-image: url(../img/img_index/bg_sec_right.png);
   background-position: right;
 }
 main section.news dl {
@@ -76,7 +75,6 @@ main section.news dl div.newsli dd {
 }
 main section.event {
   padding: 300px 0 65px 0;
-  background-image: url(../img/img_index/bg_sec_left.png);
 }
 main section.event ul {
   display: flex;

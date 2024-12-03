@@ -20,6 +20,7 @@ header {
 }
 /* footer共通 */
 footer {
+  margin: 100px 0 0 0;
   background-image: url(../img/img_index/bg_footer.png);
   & ul.foot_menu {
     font-family: Orbitron;

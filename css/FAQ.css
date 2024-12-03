@@ -1,0 +1,32 @@
+@import url(common.css);
+main section {
+  width: 1110px;
+  margin: 0 auto;
+  & p {
+    font-size: 20px;
+  }
+}
+main p.faq_atn {
+  font-size: 20px;
+  width: 977px;
+  margin: 36px 0 60px 0;
+}
+main dl dt {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 35px;
+  &::before {
+    content: url(../img/img_index/item_faq.png);
+    vertical-align: -13px;
+    width: 59px;
+    height: 59px;
+  }
+}
+main dl dd {
+  font-size: 22px;
+  padding: 10px 0 25px 0;
+  border-bottom: 1px solid #6d6d6d;
+}
+main dl dd span {
+  font-size: 20px;
+}
