@@ -1,0 +1,41 @@
+@import url(common.css);
+
+main section hgroup div.line_ri {
+  background-image: url(../img/img_about/line_left.png);
+  height: 1px;
+}
+main section.abo div.abo_box {
+  display: flex;
+  margin-top: 35px;
+  gap: 10px;
+  & p.abo_photo {
+    flex-basis: 445px;
+    flex-shrink: 0;
+  }
+  &:last-child {
+    font-size: 23px;
+    line-height: 34px;
+  }
+}
+main div.abo_sub {
+  & section {
+    margin-top: 60px;
+  }
+}
+main section.pur,
+main section.fun,
+main section.bus {
+  & dt {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  & dt:first-child {
+    margin-top: 30px;
+  }
+  & dd {
+    font-size: 23px;
+    width: 738px;
+    margin: 5px 0 0 25px;
+  }
+}
