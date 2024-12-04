@@ -18,6 +18,31 @@ header {
   z-index: 1;
   top: 0;
 }
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(180deg, #f8feff, #60d79b);
+  background-size: 120% 120%;
+  animation: gradient-animation 6s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* footer共通 */
 footer {
   margin: 100px 0 0 0;
