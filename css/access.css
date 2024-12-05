@@ -87,6 +87,7 @@ section.bus table {
     border-left: 1px solid #6d6d6d;
     border-right: 1px solid #6d6d6d;
   }
+
   & th {
     text-align: center;
     padding: 15px 30px;
@@ -98,6 +99,9 @@ section.bus table {
   & tbody {
     & tr:nth-child(even) {
       background-color: #ffffff;
+    }
+    & tr:nth-child(odd) {
+      background-color: #f8feff;
     }
   }
 }

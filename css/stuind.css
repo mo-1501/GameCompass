@@ -1,18 +1,17 @@
 @import url(common.css);
 /* 各施設詳細共通 */
 main section hgroup {
-  margin-top: 50px;
+  text-align: center;
+  padding: 60px 0 50px 0;
+  & h2 {
+    font-family: Orbitron;
+    font-size: 60px;
+  }
 }
-main.stu_ind_main {
-  width: 1110px;
-  margin: 0 auto;
-}
+
 main section figure {
-  margin: 50px auto 55px auto;
   & figcaption {
     font-size: 20px;
-    padding: 25px 0 55px 0;
-    width: 900px;
     margin: 0 auto;
   }
   &::after {
@@ -20,47 +19,97 @@ main section figure {
     display: block;
     width: 800px;
     height: 1px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: #6d6d6d;
+  }
+}
+main section figure {
+  padding: 0 70px;
+  & figcaption {
+    margin: 20px 0 25px 0;
+    font-size: 26px;
   }
 }
 main section figure div.ind_photo {
   display: flex;
-  width: 900px;
-  margin: 0 auto;
-  gap: 20px;
+  justify-content: space-between;
 }
 main section dl {
   margin: 0 auto;
-  width: 900px;
-}
-main section dl dt {
-  font-size: 25px;
-  font-weight: 500;
-  & small {
-    font-weight: 300;
+  padding: 0 70px;
+  & dt {
+    font-size: 24px;
+    font-weight: 400;
+    & span {
+      font-size: 18px;
+    }
+  }
+  & dd {
+    font-size: 26px;
+    padding: 20px 15px 55px 15px;
   }
 }
-main section dl dd {
-  font-size: 20px;
-  padding: 0 15px;
+/* 利用料金--------------------------------------------------------- */
+table.cost_sheet {
+  font-size: 21px;
+  background-color: #f8feff;
+  width: 100%;
+  & tr th {
+    padding: 12px 0;
+  }
+  & thead {
+    background-color: #efefef;
+    border-bottom: 1px solid #6d6d6d;
+    & tr th:first-child {
+      border-right: 1px solid #6d6d6d;
+      padding-left: 12px;
+      text-align: left;
+    }
+  }
+  & tbody {
+    & tr {
+      &:first-child {
+        background-color: #ffffff;
+      }
+      & th:first-child {
+        border-right: 1px solid #6d6d6d;
+        padding-left: 12px;
+        text-align: left;
+      }
+    }
+  }
 }
-main section dl dd.sheet p img {
-  margin: 0 auto;
+/* 料金表線設定 */
+table.cost_sheet {
+  border: 1px solid #6d6d6d;
 }
+/* 料金表線設定 */
+
+/* 利用料金--------------------------------------------------------- */
+
+/* 貸出備品価格表--------------------------------------------------------- */
 main section dl dd.rent_item table {
-  width: 900px;
+  background-color: #f8feff;
+  width: 100%;
+  font-size: 21px;
   border: 2px solid #6d6d6d;
   border-bottom: 1px solid #6d6d6d;
 }
-main section dl dd.rent_item table {
-  margin-top: 15px;
+.item_li {
+  margin-top: 20px;
 }
 main section dl dd.rent_item table th.rent_name {
   text-align: left;
   width: 450px;
-
   padding: 12px 0 12px 12px;
   background-color: #efefef;
   border-right: 2px solid #6d6d6d;
+}
+/* 貸出備品価格表--------------------------------------------------------- */
+.cost::after {
+  content: "円";
+  padding-left: 2px;
+}
+small.atn {
+  padding: 0 85px;
 }

@@ -9,7 +9,7 @@
 }
 body {
   line-height: normal;
-  font-family: Zen Maru Gothic;
+  font-family: "Zen Kaku Gothic New";
   font-weight: 300;
 }
 /* ヘッダーナビゲーション共通設定--------------------------------------------------------- */
@@ -18,21 +18,22 @@ header {
   font-size: 25px;
   font-weight: bold;
   background: rgba(255, 255, 255, 0.4);
-  border-bottom: 3px solid #60e684;
+  border-bottom: 3px solid #dea8df;
   position: sticky;
   z-index: 1;
   top: 0;
 }
 header nav {
   display: flex;
-  gap: 66px;
   align-items: center;
+  gap: 10px;
+  font-family: Orbitron;
   max-width: 1110px;
   margin: 0 auto;
   padding: 12px 31px 11px 18px;
   & ul {
     display: flex;
-    gap: 34px;
+    gap: 20px;
     & li {
       & a:hover {
         transition: 0.5s;
@@ -137,10 +138,11 @@ main.sub_main {
   margin: 0 auto;
 }
 main hgroup h2 {
+  font-family: Zen Maru Gothic;
   font-size: 46px;
   font-weight: 500;
   color: #f8feff;
-  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+  text-shadow: -3px 0px 11px #dea8df, 3px 0px 11px #dea8df;
 }
 main hgroup h2.sub_h2 {
   text-align: center;
