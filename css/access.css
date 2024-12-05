@@ -8,7 +8,6 @@ main section hgroup div.line_ri {
 main section {
   font-family: "Zen Kaku Gothic New";
   font-size: 24px;
-  width: 1110px;
   margin: 0 auto;
   & dl {
     padding: 0 70px;

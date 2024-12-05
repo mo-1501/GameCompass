@@ -12,14 +12,43 @@ body {
   font-family: Zen Maru Gothic;
   font-weight: 300;
 }
+/* ヘッダーナビゲーション共通設定--------------------------------------------------------- */
 header {
+  color: #60e684;
+  font-size: 25px;
+  font-weight: bold;
   background: rgba(255, 255, 255, 0.4);
   border-bottom: 3px solid #60e684;
   position: sticky;
   z-index: 1;
   top: 0;
 }
+header nav {
+  display: flex;
+  gap: 66px;
+  align-items: center;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 12px 31px 11px 18px;
+  & ul {
+    display: flex;
+    gap: 34px;
+    & li {
+      & a:hover {
+        transition: 0.5s;
+        color: #f8feff;
+        text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+      }
+      &.active {
+        color: #f8feff;
+        text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+      }
+    }
+  }
+}
+/* ヘッダーナビゲーション共通設定--------------------------------------------------------- */
 
+/* 背景canvas設定--------------------------------------------------------- */
 #canvas {
   position: fixed;
   top: 0;
@@ -31,7 +60,6 @@ header {
   background-size: 120% 120%;
   animation: gradient-animation 6s ease infinite;
 }
-
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -43,8 +71,9 @@ header {
     background-position: 0% 50%;
   }
 }
+/* 背景canvas設定--------------------------------------------------------- */
 
-/* footer共通 */
+/* footer共通--------------------------------------------------------- */
 footer {
   margin: 100px 0 0 0;
   background-image: url(../img/img_index/bg_footer.png);
@@ -99,22 +128,19 @@ footer p small {
   color: #f8feff;
   text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
 }
+/* footer共通--------------------------------------------------------- */
+
 /* 下層ページ共通設定↓ */
-body ul li.active {
-  color: #f8feff;
-  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
-}
+
 main.sub_main {
   max-width: 1110px;
   margin: 0 auto;
-  /* background-color: aqua; */
 }
 main hgroup h2 {
   font-size: 46px;
   font-weight: 500;
   color: #f8feff;
   text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
-  padding: 0 0 10px 0;
 }
 main hgroup h2.sub_h2 {
   text-align: center;
@@ -137,28 +163,4 @@ span.big {
 li.act {
   color: #ff5353;
   font-weight: 500;
-}
-header nav {
-  margin: 0 auto;
-  max-width: 1110px;
-  display: flex;
-  gap: 66px;
-  align-items: center;
-  padding: 12px 31px 11px 18px;
-}
-header nav ul {
-  display: flex;
-  gap: 34px;
-}
-header nav ul li {
-  color: #60e684;
-  font-weight: bold;
-  font-size: 25px;
-}
-header ul li {
-  & a:hover {
-    transition: 0.7s;
-    color: #f8feff;
-    text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
-  }
 }
