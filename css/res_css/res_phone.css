@@ -1,0 +1,194 @@
+@import url(common.css);
+header {
+  font-size: 17px;
+}
+header {
+  padding-top: 40px;
+}
+header nav {
+  width: 430px;
+  justify-content: space-between;
+  & ul {
+    display: none;
+  }
+  & p {
+    flex-basis: 176px;
+    flex-shrink: 0;
+  }
+}
+body div.phone_mainvi {
+  width: 100%;
+  height: 500px;
+  margin-top: -115px;
+  background-image: url(../../img/img_index/img_res/phone_mainvi.jpg);
+}
+body p.mainvi {
+  margin-top: 0;
+
+  & img {
+    display: none;
+  }
+}
+body hgroup.catcopy {
+  position: absolute;
+  left: 28px;
+  top: 215px;
+  font-size: 19px;
+  color: #ffffff;
+  text-align: center;
+}
+body hgroup h1 {
+  font-family: Orbitron;
+  font-size: 34px;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+  margin-bottom: 15px;
+}
+main section h2.lefth2 {
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  background-image: url(../../img/img_index/bg_h2_left.png);
+}
+main section h2.righth2 {
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  background-image: url(../../img/img_index/bg_h2_right.png);
+  background-position: right;
+}
+main section p.btn {
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #000000;
+  width: 292px;
+  margin: 35px auto 0 auto;
+  padding: 10px 0px;
+}
+main section.about h2 img {
+  width: 375px;
+}
+
+main section.about {
+  text-align: center;
+  padding: 65px 0 40px 0;
+  background-position: center;
+}
+main section.about p.catch {
+  font-size: 22px;
+  padding: 35px 0 25px 0;
+}
+main section.about p.catchtext {
+  margin: 0 auto;
+  text-align: center;
+  width: 323px;
+  font-size: 17px;
+}
+
+main section.news {
+  padding: 65px 0 55px 0;
+  background-position: right;
+}
+main section.news dl {
+  padding: 65px 0 0 0;
+}
+main section.news dl div.newsli {
+  display: block;
+  width: 375px;
+  margin: 0 auto;
+  padding: 26px 0;
+  border-top: 0.5px solid #8e8e8e;
+  border-bottom: 0.5px solid #8e8e8e;
+  & dt {
+    font-size: 20px;
+    padding-left: 17px;
+  }
+}
+
+main section.news dl div.newsli dd {
+  font-size: 18px;
+  width: 322px;
+  margin-left: 27px;
+}
+main section.event {
+  padding: 65px 0 55px 0;
+}
+main section.event ul {
+  justify-content: center;
+  display: block;
+  width: 272px;
+  margin: 0 auto 0 auto;
+  & li img {
+    width: 272px;
+    margin: 65px 0 0 0;
+  }
+}
+main section.event ul li.info_no4 {
+  display: none;
+}
+main section.access {
+  padding: 65px 0 55px 0;
+}
+main section.access div.address {
+  display: block;
+  width: fit-content;
+  margin: 65px auto 0 auto;
+  padding: 0 35px;
+}
+main section.access div.address div.map p {
+  margin: 0 auto;
+}
+main section.access div.address div.acs p.adr {
+  font-size: 20px;
+  width: fit-content;
+  margin: 25px 0;
+}
+main section.access div.address div.acs hgroup {
+  font-size: 17px;
+  width: fit-content;
+  & h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+footer {
+  margin-top: 0;
+  padding: 65px 0 0 0;
+  background-image: url(../../img/img_index/img_res/phone_footer.jpg);
+  & div.upside_line {
+    display: none;
+  }
+  & ul.foot_menu {
+    display: none;
+  }
+  & p.foot_logo {
+    display: none;
+  }
+  & p.phone_logo {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+  }
+  & div.foot_line {
+    width: 340px;
+    margin: 25px auto;
+  }
+  & ul.foot_sns {
+    width: fit-content;
+    margin: 25px auto;
+    gap: 60px;
+  }
+  & ul.foot_otmenu {
+    width: fit-content;
+    font-size: 18px;
+    text-align: center;
+    flex-flow: column;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  & p.copy {
+    background-color: unset;
+  }
+}

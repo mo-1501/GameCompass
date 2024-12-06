@@ -89,6 +89,9 @@ footer {
     padding: 70px 0 0 0;
     justify-content: space-between;
   }
+  & p.phone_logo {
+    display: none;
+  }
 }
 footer p.foot_logo {
   width: fit-content;
@@ -105,7 +108,7 @@ footer ul.foot_sns {
   display: flex;
   width: 337px;
   margin: 35px auto;
-  justify-content: space-between;
+  gap: 100px;
 }
 footer ul.foot_otmenu {
   display: flex;
@@ -165,4 +168,10 @@ span.big {
 li.act {
   color: #ff5353;
   font-weight: 500;
+}
+@media (max-width: 1024px) {
+  header {
+    /* font-size: 17px;
+    color: aqua; */
+  }
 }

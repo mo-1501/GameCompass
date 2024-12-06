@@ -85,9 +85,11 @@ main section.event ul {
   width: 1110px;
   margin: 155px auto 0 auto;
 }
+main section.event ul li.info_no4 {
+  display: none;
+}
 main section.access {
   padding: 300px 0 65px 0;
-  background-image: url(../img/img_index/bg_sec_right.png);
   background-position: right;
 }
 main section.access div.address {

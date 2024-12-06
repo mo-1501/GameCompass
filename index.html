@@ -6,9 +6,11 @@
     <title>GameCompass</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/res_css/res_pad.css" media="screen and (max-width:1024px)">
+    <link rel="stylesheet" href="css/res_css/res_phone.css" media="screen and (max-width:430px)">
     <script src="js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
@@ -33,19 +35,21 @@
             </ul>
         </nav>
     </header>
-    <p class="mainvi"><img src="img/img_index/mainvisual.jpg" alt="メインビジュアル"></p>
-    <hgroup class="catcopy">
-        <h1>Not just competition,<br>
-            fun is here!</h1>
-        <p>「競うだけじゃない、楽しさがここに」</p>
-    </hgroup>
+    <div class="phone_mainvi">
+        <p class="mainvi"><img src="img/img_index/mainvisual.jpg" alt="メインビジュアル"></p>
+        <hgroup class="catcopy">
+            <h1>Not just competition,<br>
+                fun is here!</h1>
+            <p>「競うだけじゃない、楽しさがここに」</p>
+        </hgroup>
+    </div>
     <main>
         <section class="about">
             <h2><img src="img/img_index/logo_about.png" alt="タイトルロゴ"></h2>
             <p class="catch">「競うだけじゃない、楽しさがここに」</p>
-            <p class="catchtext">「GameCompass」はすべてのゲーム好きのための交流レンタルスペース。<br>
-                オンライン、オフラインなど様々なプレイ環境、スタイルに合わせたレンタルスペースをはじめ、<br>
-                eスポーツ大会の開催や、個人団体での小規模交流戦などに役立つ設備をご用意！<br>
+            <p class="catchtext">「GameCompass」はすべてのゲーム好きのための交流レンタルスペース。<br class="ex_br">
+                オンライン、オフラインなど様々なプレイ環境、スタイルに合わせたレンタルスペースをはじめ、<br class="ex_br">
+                eスポーツ大会の開催や、個人団体での小規模交流戦などに役立つ設備をご用意！<br class="ex_br">
                 競うだけでなく、その先の楽しさのすべてがここに！</p>
             <p class="btn">READ MORE</p>
         </section>
@@ -78,6 +82,7 @@
                 <li><img src="img/img_index/event_konkon.jpg" alt=""></li>
                 <li><img src="img/img_index/event_shark.jpg" alt=""></li>
                 <li><img src="img/img_index/event_misora.jpg" alt=""></li>
+                <li class="info_no4"><img src="img/img_index/event_misora.jpg" alt=""></li>
             </ul>
             <p class="btn">VIEW MORE</p>
         </section>
@@ -85,7 +90,7 @@
             <h2 class="lefth2">ACCESS</h2>
             <div class="address">
                 <div class="map">
-                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.2813909530255!2d139.43707557578173!3d35.54675207263103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018feae4524e7d5%3A0x1aa27fccb5b40b32!2z44CSMTk0LTAwMjIg5p2x5Lqs6YO955S655Sw5biC5qOu6YeO77yS5LiB55uu77yS4oiS77yT77yW!5e0!3m2!1sja!2sjp!4v1732852594606!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.2813909530255!2d139.43707557578173!3d35.54675207263103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018feae4524e7d5%3A0x1aa27fccb5b40b32!2z44CSMTk0LTAwMjIg5p2x5Lqs6YO955S655Sw5biC5qOu6YeO77yS5LiB55uu77yS4oiS77yT77yW!5e0!3m2!1sja!2sjp!4v1732852594606!5m2!1sja!2sjp" width="341" height="341" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
                 </div>
                 <div class="acs">
                     <p class="adr">〒194-0022<br>
@@ -107,14 +112,15 @@
     </main>
     <footer>
         <ul class="foot_menu">
-                        <li><a href="index.html">GameCompass</a></li>
-                        <li><a href="studio.html">STUDIO</a></li>
-                        <li><a href="reservation.html">RESERVATION</a></li>
-                        <li class="active"><a href="access.html">ACCESS</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="index.html">GameCompass</a></li>
+            <li><a href="studio.html">STUDIO</a></li>
+            <li><a href="reservation.html">RESERVATION</a></li>
+            <li class="active"><a href="access.html">ACCESS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
         </ul>
-        <div class="foot_line"></div>
+        <div class="foot_line upside_line"></div>
         <p class="foot_logo"><img src="img/img_index/logo_about_white.png" alt=""></p>
+        <p class="phone_logo"><img src="img/img_index/img_res/logo_phone.png" alt=""></p>
         <ul class="foot_sns">
             <li><a href="#"><img src="img/img_index/logo_X.png" alt="Xロゴ"></a></li>
             <li><a href="#"><img src="img/img_index/logo_instaglam.png" alt="Instagramロゴ"></a></li>
