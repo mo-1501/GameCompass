@@ -169,9 +169,3 @@ li.act {
   color: #ff5353;
   font-weight: 500;
 }
-@media (max-width: 1024px) {
-  header {
-    /* font-size: 17px;
-    color: aqua; */
-  }
-}
