@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about</title>
+    <title>CompassStudio</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <script src="js/script.js"></script>
@@ -36,78 +36,107 @@
     <p class="subhead "><img src="img/img_studio_index/bg_header_studio.png" alt=""></p>
     <ul class="bread">
         <li><a href="index.html">HOME</a><span class="big">&gt;</span></li>
-        <li><a href="about.html">STUDIO</a><span class="big">&gt;</span></li>
+        <li><a href="studio.html#studio">STUDIO</a><span class="big">&gt;</span></li>
         <li class="act"><a href="">CompassStudio</a></li>
     </ul>
     <canvas id="canvas"></canvas>
-    <main class="stu_ind_main">
+    <main class="sub_main">
         <section>
             <hgroup>
-                <h2>CompassStudio(配信スタジオ)</h2>
-                <div class="line_lef"><img src="img/img_about/line_left.png" alt=""></div>
+                <h2>CompassStudio</h2>
+                <div class="line_ce"></div>
             </hgroup>
             <figure>
                 <div class="ind_photo">
-                    <p><img src="img/img_studio_index/CS_photo.png" alt=""></p>
-                    <p><img src="img/img_studio/photo_studio.png" alt=""></p>
+                    <p><img src="img/img_studio_index/img_studio_l.jpg" alt=""></p>
+                    <p><img src="img/img_studio_index/img_studio_r.jpg" alt=""></p>
                 </div>
-                <figcaption>「eスポーツ」利用をはじめ、複数人での実況配信やイベント・大会の開催などで利用が可能。<br>
+                <figcaption>「eスポーツ」利用をはじめ、複数人での実況配信やイベント・大会の開催などで利用が可能。
                     本格的な配信機材なども完備。</figcaption>
             </figure>
             <dl>
                 <dt>仕様</dt>
                 <dd>配信スタジオ、控室(二部屋)、観覧席(10席)、コミュニティースペースなど...
+
                 </dd>
-                <dt>施設利用料金(時間帯区切り)</dt>
-                <dd class="sheet">
-                    <p><img src="img/img_studio_index/CS_sheet.png" alt=""></p>
+                <dt>施設利用料金(時間帯別料金)</dt>
+                <dd>
+                    <table class="cost_sheet">
+                        <thead>
+                            <tr>
+                                <th>曜日/時間帯</th>
+                                <th>9:00-12:00(午前)</th>
+                                <th>13:00-16:00(午後)</th>
+                                <th>17:00-21:00(夜間)</th>
+                                <th>9:00-21:00(全日)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="bord_1">平日</th>
+                                <th class="cost">13,600</th>
+                                <th class="cost">14,660</th>
+                                <th class="cost">15,600</th>
+                                <th class="cost">45,980</th>
+                            </tr>
+                            <tr>
+                                <th class="bord_1">土・日・祝</th>
+                                <th class="cost">16,320</th>
+                                <th class="cost">18,790</th>
+                                <th class="cost">21,120</th>
+                                <th class="cost">55,170</th>
+                            </tr>
+                        </tbody>
+                    </table>
                 </dd>
-                <dt>主な設備レンタル料<br><small>１回あたりの料金です。<br>※１回とは、１つの利用日における継続的な利用のことです。</small>
+                <dt>主な設備レンタル料
+                    <span>(１回あたりの料金です。)</span><br>
+                    <span>※１回とは、１つの利用日における継続的な利用のことです。</span>
                 </dt>
                 <dd class="rent_item">
                     <table>
                         <thead>
                             <tr>
                                 <th class="rent_name">スタジオ照明Aセット</th>
-                                <th class="rent_cost">￥3,300</th>
+                                <th class="rent_cost"><span class="cost">3,300</span></th>
                             </tr>
                         </thead>
                     </table>
-                    <table>
+                    <table class="item_li">
                         <thead>
                             <tr>
                                 <th class="rent_name">スタジオ照明Bセット</th>
-                                <th class="rent_cost">￥5,500</th>
+                                <th class="rent_cost"><span class="cost">5,500</span></th>
                             </tr>
                         </thead>
                     </table>
-                    <table>
+                    <table class="item_li">
                         <thead>
                             <tr>
                                 <th class="rent_name">配信用ピンマイクセット</th>
-                                <th class="rent_cost">￥1,100/1組</th>
+                                <th class="rent_cost"><span class="cost">1,100</span>/1台</th>
                             </tr>
                         </thead>
                     </table>
-                    <table>
+                    <table class="item_li">
                         <thead>
                             <tr>
                                 <th class="rent_name">配信用カメラセット</th>
-                                <th class="rent_cost">￥9,900</th>
+                                <th class="rent_cost"><span class="cost">9,900</span></th>
                             </tr>
                         </thead>
                     </table>
-                    <table>
+                    <table class="item_li">
                         <thead>
                             <tr>
                                 <th class="rent_name">プレイ用PC</th>
-                                <th class="rent_cost">￥11,000/1台</th>
+                                <th class="rent_cost"><span class="cost">11,000</span>/1台</th>
                             </tr>
                         </thead>
                     </table>
                 </dd>
             </dl>
-            <small>◆年末年始（１２月２９日～１月３日）は全館休館のため、ご予約できません。</small>
+            <small class="atn">◆年末年始（１２月２９日～１月３日）は全館休館のため、ご予約できません。</small>
         </section>
     </main>
     <footer>

@@ -20,6 +20,7 @@ body hgroup h1 {
 }
 
 main section h2.lefth2 {
+  font-family: Orbitron;
   font-size: 50px;
   color: #ffffff;
   text-align: center;
@@ -27,6 +28,7 @@ main section h2.lefth2 {
   background-image: url(../img/img_index/bg_h2_left.png);
 }
 main section h2.righth2 {
+  font-family: Orbitron;
   font-size: 50px;
   color: #ffffff;
   text-align: center;
@@ -34,14 +36,7 @@ main section h2.righth2 {
   background-image: url(../img/img_index/bg_h2_right.png);
   background-position: right;
 }
-main section p.btn {
-  font-size: 40px;
-  text-align: center;
-  border: 1px solid #000000;
-  width: 514px;
-  margin: 124px auto 0 auto;
-  padding: 11px 0px;
-}
+
 main section.about {
   text-align: center;
   padding: 132px 0 65px 0;

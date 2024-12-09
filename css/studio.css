@@ -2,14 +2,12 @@
 main p.stname {
   font-size: 46px;
   font-weight: 500;
-  color: #dea8df;
+  text-align: center;
+  color: #f8feff;
+  text-shadow: -3px 0px 11px #dea8df, 3px 0px 11px #dea8df;
   font-family: Orbitron;
-  padding: 0 0 5px 20px;
 }
-main div.line_left {
-  height: 1px;
-  background-image: url(../img/img_about/line_left.png);
-}
+
 main div.stu,
 div.spa,
 div.hal,
@@ -27,11 +25,11 @@ main figure {
   display: flex;
   margin: 20px 0 0 50px;
   & figcaption {
-    font-size: 29px;
+    font-size: 26px;
     width: 537px;
     display: flex;
     flex-flow: column;
-    gap: 30px;
+    gap: 25px;
     margin: 0 0 0 15px;
   }
 }
@@ -41,6 +39,9 @@ main figure div.sub_link {
   right: 0;
   text-align: right;
   font-size: 24px;
+}
+main section div.sheet {
+  margin-top: 60px;
 }
 main section div.sheet p.sheet_photo {
   margin: 0 auto;

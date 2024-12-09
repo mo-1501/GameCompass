@@ -41,9 +41,12 @@ textarea {
   margin-top: 10px;
   height: 35px;
   background-color: #f5f4f4;
-  border: 1px solid #dea8df;
+  border: 1px solid #6d6d6d;
   border-radius: 3px;
   width: 693px;
+}
+textarea {
+  height: 151px;
 }
 main section form div.form_box {
   margin: 0 0 0 43px;

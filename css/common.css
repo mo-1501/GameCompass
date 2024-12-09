@@ -6,6 +6,7 @@
 }
 * {
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 body {
   line-height: normal;
@@ -141,7 +142,7 @@ main.sub_main {
   margin: 0 auto;
 }
 main hgroup h2 {
-  font-family: Zen Maru Gothic;
+  font-family: Orbitron;
   font-size: 46px;
   font-weight: 500;
   color: #f8feff;
@@ -150,7 +151,7 @@ main hgroup h2 {
 main hgroup h2.sub_h2 {
   text-align: center;
 }
-main hgroup div.line_ce {
+div.line_ce {
   background-image: url(../img/img_about/line_center.png);
   height: 1px;
 }
@@ -168,4 +169,27 @@ span.big {
 li.act {
   color: #ff5353;
   font-weight: 500;
+}
+main section p.btn {
+  font-size: 27px;
+  text-align: center;
+  color: #ffffff;
+  width: 300px;
+  margin: 120px auto 0 auto;
+  padding: 8px 0px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2af598), to(#009efd));
+  background-image: -webkit-linear-gradient(left, #2af598 0%, #009efd 100%);
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+  transition: 0.3s;
+  &:hover {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+    color: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  }
 }
