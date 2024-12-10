@@ -46,6 +46,7 @@ body hgroup h1 {
 main section h2.lefth2 {
   font-size: 35px;
   color: #ffffff;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
   text-align: center;
   padding: 40px 0 40px 0;
   background-image: url(../../img/img_index/bg_h2_left.png);
@@ -53,6 +54,7 @@ main section h2.lefth2 {
 main section h2.righth2 {
   font-size: 35px;
   color: #ffffff;
+  text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
   text-align: center;
   padding: 40px 0 40px 0;
   background-image: url(../../img/img_index/bg_h2_right.png);
@@ -73,7 +75,7 @@ main section.about h2 img {
 main section.about {
   text-align: center;
   padding: 65px 0 40px 0;
-  background-position: center;
+  background: none;
 }
 main section.about p.catch {
   font-size: 22px;
@@ -145,11 +147,17 @@ main section.access div.address div.acs p.adr {
   margin: 25px 0;
 }
 main section.access div.address div.acs hgroup {
+  text-align: left;
   font-size: 17px;
+  padding: 0 0;
   width: fit-content;
   & h3 {
     font-size: 20px;
     margin-bottom: 5px;
+  }
+  & p {
+    font-size: 18px;
+    padding: 0 0 0 5px;
   }
 }
 
