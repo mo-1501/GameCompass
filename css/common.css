@@ -89,6 +89,15 @@ footer {
     margin: 0 auto;
     padding: 70px 0 0 0;
     justify-content: space-between;
+    & a:hover {
+      transition: 0.5s;
+      color: #f8feff;
+      text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+    }
+    & li.active {
+      color: #f8feff;
+      text-shadow: -3px 0px 11px #60e684, 3px 0px 11px #60e684;
+    }
   }
   & p.phone_logo {
     display: none;

@@ -141,6 +141,203 @@ main section.access div.address div.acs hgroup {
     margin-bottom: 10px;
   }
 }
+/* アクセスページレスポンシブ--------------------------------------------------------- */
+main section hgroup div.line_ri {
+  background-image: url(../img/img_about/line_left.png);
+  height: 1px;
+}
+
+/* 各項目共通設定--------------------------------------------------------- */
+main section {
+  width: 100%;
+  font-family: "Zen Kaku Gothic New";
+  font-size: 24px;
+  margin: 0 auto;
+  & dl {
+    padding: 0 70px;
+
+    & dt {
+      font-size: 22px;
+    }
+  }
+}
+main section div.add {
+  padding: 0 70px;
+}
+main section.bike {
+  & figure {
+    padding: 0 70px;
+  }
+}
+main section hgroup {
+  text-align: center;
+  padding: 60px 0 50px 0;
+}
+/* 各項目共通設定--------------------------------------------------------- */
+
+/* 所在地--------------------------------------------------------- */
+section.loca {
+  padding-bottom: 55px;
+  & div.add {
+    display: flex;
+    & address {
+      font-size: 21px;
+      margin-left: 15px;
+    }
+  }
+}
+/* 所在地--------------------------------------------------------- */
+
+/* 電車でお越しの方--------------------------------------------------------- */
+section.train {
+  & dl {
+    & dd {
+      padding-bottom: 55px;
+      & figure {
+        & img {
+          margin: 20px 0 25px 0;
+        }
+      }
+    }
+  }
+}
+/* 電車でお越しの方--------------------------------------------------------- */
+section.bus table {
+  width: 100%;
+  margin: 20px auto 25px auto;
+  border: 1px solid #6d6d6d;
+  & th:nth-child(3) {
+    width: fit-content;
+  }
+  & th:nth-child(2) {
+    border-left: 1px solid #6d6d6d;
+    border-right: 1px solid #6d6d6d;
+  }
+
+  & th {
+    text-align: center;
+    padding: 15px 30px;
+  }
+  & thead {
+    background-color: #efefef;
+    border-bottom: 1px solid #6d6d6d;
+  }
+  & tbody {
+    & tr:nth-child(even) {
+      background-color: #ffffff;
+    }
+    & tr:nth-child(odd) {
+      background-color: #f8feff;
+    }
+  }
+}
+
+/* 車でお越しの方--------------------------------------------------------- */
+section.car {
+  & span {
+    font-size: 18px;
+    padding-left: 5px;
+  }
+  & dd {
+    padding-bottom: 55px;
+  }
+}
+section.car div.car_img {
+  justify-content: flex-start;
+  display: flex;
+  gap: 0;
+  margin: 20px auto 25px auto;
+  & img {
+    scale: 0.8;
+  }
+}
+/*車でお越しの方--------------------------------------------------------- */
+/*自転車・バイクでお越しの方--------------------------------------------------------- */
+section.bike {
+  & figure {
+    padding-bottom: 55px;
+    & img {
+      margin-bottom: 25px;
+    }
+  }
+}
+/*自転車・バイクでお越しの方--------------------------------------------------------- */
+/* アクセスページレスポンシブ--------------------------------------------------------- */
+/* 問い合わせページレスポンシブ */
+main section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 70px;
+  & p {
+    font-size: 20px;
+  }
+  & hgroup {
+    margin: 0 auto;
+    padding: 0 70px;
+  }
+}
+main p.con_atn {
+  font-size: 17px;
+  width: 100%;
+  background-color: #efefef;
+}
+main section form label {
+  width: 198px;
+  font-size: 17px;
+  font-weight: 400;
+}
+main section form label.rec {
+  &::after {
+    content: "必須";
+    font-size: 11px;
+    color: #f5f4f4;
+    margin: 0 0 0 5px;
+    padding: 1px 4px;
+    background-color: #ff4b4b;
+  }
+}
+main section form div.parts_flex {
+  display: flex;
+  width: 978px;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #6d6d6d;
+  & small {
+    font-size: 14px;
+  }
+}
+input.wide_box,
+textarea {
+  margin-top: 10px;
+  height: 35px;
+  background-color: #f5f4f4;
+  border: 1px solid #6d6d6d;
+  border-radius: 3px;
+  width: 693px;
+}
+textarea {
+  height: 151px;
+}
+main section form div.form_box {
+  margin: 0 0 0 43px;
+}
+main section form p.under_atn {
+  margin: 40px 0 50px 0;
+}
+main section form p.agree {
+  text-align: center;
+}
+p.btn {
+  width: fit-content;
+  text-align: center;
+  font-weight: 500;
+  padding: 15px 40px;
+  margin: 100px auto;
+  color: #f5f4f4;
+  background-color: #60e684;
+}
+
+/* 問い合わせページレスポンシブ */
 
 footer {
   margin-top: 0;
@@ -169,4 +366,8 @@ footer {
   & p.copy {
     margin: 70px 0 0 0;
   }
+}
+ul.bread {
+  width: 100%;
+  padding: 0 70px;
 }
